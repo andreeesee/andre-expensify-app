@@ -5,7 +5,6 @@
   "author": "Andre",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build": "webpack",
     "build:dev": "webpack --mode development",
     "build:prod": "webpack --mode production",
@@ -27,13 +26,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^6.5.1",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "enzyme-to-json": "^3.6.2",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "^3.0.2",
-    "jest": "^27.3.1",
-    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^2.4.4",
     "moment": "^2.29.1",
     "node-sass": "^6.0.1",
@@ -47,16 +41,21 @@
     "react-redux": "^7.2.6",
     "react-router": "^6.0.0",
     "react-router-dom": "4.2.2",
-    "react-test-renderer": "^17.0.2",
     "redux": "^4.1.2",
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "uuid": "^8.3.2",
     "validator": "^13.7.0",
-    "webpack": "^5.61.0",
-    "webpack-dev-server": "^4.4.0"
+    "webpack": "^5.61.0"
   },
   "devDependencies": {
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
+    "live-server": "^1.2.1",
+    "react-test-renderer": "^17.0.2",
+    "jest": "^27.3.1",
+    "webpack-dev-server": "^4.4.0"
   }
 }
