@@ -23,4 +23,9 @@ git remote -v
 git branch -M main
 git push -u origin main
 
+# Commit only files with changes
+git status
+git commit -am "message" 
+git push heroku main
+
 # WebPack
