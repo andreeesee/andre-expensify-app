@@ -1,3 +1,6 @@
+# CD
+cd C:\Users\john.andre.b.see\OneDrive - Accenture\Training\Reac JS\react-course-projects\expensify-app
+
 # Git Commands
 
 git init - create a new git repo
